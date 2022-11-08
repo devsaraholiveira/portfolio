@@ -188,7 +188,7 @@ img {
       width: 580px;
       height: 100px;
       left: 605px;
-      top: 85px;
+      top: 115px;
       font-size: 35px;
       text-decoration: none;
       background: linear-gradient(99.28deg, #a09fff 0%, #f78ee0 50%);
@@ -197,6 +197,7 @@ img {
       background-clip: text;
       font-family: Arial, Helvetica, sans-serif;
       position: absolute;
+     
   }
   #t3{
     position: absolute;
