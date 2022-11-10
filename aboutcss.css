@@ -269,57 +269,39 @@ img {
       font-family: Arial, Helvetica, sans-serif;
       }
       #li1 a {
-      display: block;
-      color: rgb(134, 134, 134);
-
-      padding: 9px 35px;
-      text-decoration: none;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 50px;
-      margin-right: 9px; 
-      }
-        
+        display: block;
+        color: rgb(134, 134, 134);
+  
+        padding: 9px 35px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 50px;
+        margin-right: 9px; 
+        }
       #ul2 {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        overflow: hidden;
         background-color: rgb(0, 0, 0);
-        margin-left: 20px;
-        
-        
-      }
+        margin-left: 60px;
+      
+      }  
+      
     
       #li2 {
-        float: left;
+        float: center;
       }
     
       #li2 a {
         display: block;
-      color: rgb(255, 255, 255);
-      margin-right: -13px;
-      padding: 14px 16px;
-      text-decoration: none;
-      font-family: Arial, Helvetica, sans-serif;
-      margin-top: 570px;
-      float: center;
-      
-      }
-      #button1 {
-        padding: .8rem 1rem;
-        border-radius: 50px;
-        place-self: flex-start;
-        cursor: pointer;
-        transition: .3s all ease;
-        color: #F6F6F6;
-        width: -4px;
-        background-color: rgba(255, 255, 255, 0);
         color: rgb(255, 255, 255);
-        border: 2px solid #a09fff;
-        left: 29px;
-        position: absolute;
-        top: 150px;
+       
+        padding: 14px 16px;
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        margin-top: 649px;
+        float: center;
+        margin-left: -16px;
+        margin-right: -9px;
       }
+     
       h2 {
         position: absolute;
         width: 292px;
