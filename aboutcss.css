@@ -129,14 +129,16 @@ body{
   color: rgb(255, 205, 131) !important;
 }
 img {
-    display: block;
-    width: 255px;
-    height: 329px;
-    border-radius: 10px;
-    position: absolute;
-    left: 199px;
-    top: 150px;
-  }
+  display: block;
+  width: 255px;
+  height: 280px;
+  border-radius: 10px;
+  position: absolute;
+  left: 199px;
+  top: 174px;
+}
+
+
   h2{
     position: absolute;
       width: 580px;
