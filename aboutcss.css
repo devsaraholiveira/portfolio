@@ -79,7 +79,7 @@ body{
   padding: 14px 16px;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
-  margin-top: 800px;
+  margin-top: 640px;
   float: center;
   
   }
@@ -134,15 +134,15 @@ img {
     height: 329px;
     border-radius: 10px;
     position: absolute;
-    left: 329px;
+    left: 199px;
     top: 150px;
   }
   h2{
     position: absolute;
       width: 580px;
       height: 100px;
-      left: 605px;
-      top: 115px;
+      left: 481px;
+      top: 140px;
       font-size: 35px;
       text-decoration: none;
       background: linear-gradient(99.28deg, #a09fff 0%, #f78ee0 50%);
@@ -153,18 +153,17 @@ img {
       position: absolute;
      
   }
-  #t3{
+  #t3 {
     position: absolute;
-      width: 366px;
-      height: 122px;
-      left: 608px;
-      top: 175px;
-      font-size: 16px;
-      text-decoration: none;
-      color: #a7a7a7;
-      font-family: Arial, Helvetica, sans-serif;
-      line-height: 25px;
-
+    width: 366px;
+    height: 122px;
+    left: 482px;
+    top: 205px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #a7a7a7;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 19px;
   }
   #back{
     background-color: rgba(255, 255, 255, 0);
@@ -180,7 +179,7 @@ img {
     text-decoration: none;
   }
 
-  p #a{
+ p #a{
     color: white;
   }
  
@@ -189,7 +188,7 @@ img {
     position: absolute;
       width: 366px;
       height: 122px;
-      left: 327px;
+      left: 197px;
       top: 500px;
       font-size: 20px;
       text-decoration: none;
@@ -201,13 +200,13 @@ img {
     position: absolute;
       width: 366px;
       height: 122px;
-      left: 327px;
+      left: 197px;
       top: 547px;
       font-size: 16px;
       text-decoration: none;
       color: white;
       font-family: Arial, Helvetica, sans-serif;
-      line-height: 20px;
+      line-height: 17px;
 
   }
   p #b{
@@ -219,8 +218,8 @@ img {
     position: absolute;
       width: 366px;
       height: 122px;
-      left: 327px;
-      top: 745px;
+      left: 590px;
+      top: 500px;
       font-size: 20px;
       text-decoration: none;
       color: #a7a7a7;
@@ -229,10 +228,10 @@ img {
   }
   #t5{
     position: absolute;
-      width: 550px;
+      width: 350px;
       height: 122px;
-      left: 327px;
-      top: 795px;
+      left: 590px;
+      top: 547px;
       font-size: 16px;
       text-decoration: none;
       color: white;
