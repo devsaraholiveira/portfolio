@@ -54,53 +54,7 @@ body{
       color:#d87eff;
     }
     
-    #contato {
-        border: none;
-        outline: none;
-        position: relative;
-        z-index: 1;
-        border-radius: 5px;
-        background: linear-gradient(to right, #d87eff, #8785FF) ;
-        cursor: pointer;
-     }
-
-     #contato::before {
-        content: "";
-        position: absolute;
-        left: 1px;
-        right: 1px;
-        top: 1px;
-        bottom: 1px;
-        border-radius: 4px;
-        background-color: #000000;
-        z-index: -1;
-        transition: 200ms
-    }
-
-    #contato::after {
-        content: attr(text);
-        font-size: 10px;
-        background: linear-gradient(to left, #d87eff, #8785FF) ;
-        -webkit-background-clip: text;
-        color: transparent;
-        transition: 200ms
-    }
-
-    #contato:hover::before {
-        opacity: 90%;
-        top: 0px;
-        right: 0px;
-        bottom: 0px;
-        left: 0px;
-    }
-
     
-    #contato:hover {
-      -webkit-box-shadow: 3px 0px 11px -4px #9e59ff, -3px 0px 12px -4px  #ffffff;
-        -moz-box-shadow: 3px 0px 11px -4px #9e59ff, -3px 0px 12px -4px  #ffffff;
-        box-shadow: 3px 0px 11px -4px  #9e59ff, -3px 0px 12px -4px   #ffffff;
-    }
-  
   
 
   #ul2 {
@@ -230,27 +184,7 @@ img {
     color: white;
   }
  
-  #button1 {
-    padding: .8rem 1rem;
-border-radius: 50px;
-place-self: flex-start;
-cursor: pointer;
-transition: .3s all ease;
-color: #F6F6F6;
-width: 15px;
-    background-color: rgba(255, 255, 255, 0);
-    color: rgb(255, 255, 255);
-    border: 2px solid#a09fff; /* Green */
-    left: 255px;
-    position: absolute;
-    top: 150px;
-  } 
-
-#button1:hover{
--webkit-box-shadow: 3px 3px 9px -5px#a09fff;
--moz-box-shadow: 3px 3px 9px -5px#a09fff;
-box-shadow: 3px 3px 9px -5px#a09fff;
-}
+  
   h3{
     position: absolute;
       width: 366px;
