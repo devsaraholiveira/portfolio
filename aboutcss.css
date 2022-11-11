@@ -128,14 +128,14 @@ body{
 #lab:hover > * {
   color: rgb(255, 205, 131) !important;
 }
-img {
+#eu {
   display: block;
-  width: 255px;
+  width: 260px;
   height: 280px;
   border-radius: 10px;
   position: absolute;
   left: 199px;
-  top: 174px;
+  top: 180px;
 }
 
 
@@ -247,6 +247,117 @@ img {
     
 
   }
+  #camera {
+    display: block;
+    width: 28px;
+    border-radius: 10px;
+    position: absolute;
+    left: 900px;
+    top: 205px;
+  }
+  #volei {
+    display: block;
+    width: 28px;
+    border-radius: 10px;
+    position: absolute;
+    left: 950px;
+    top: 205px;
+  }
+  #praia {
+    display: block;
+    width: 28px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1000px;
+    top: 205px;
+  }
+  #unha{
+    display: block;
+    width: 28px;
+    border-radius: 10px;
+    position: absolute;
+    left: 1050px;
+    top: 205px;
+  }
+  h5 {
+  position: absolute;
+  width: 292px;
+  height: 100px;
+  left: 937px;
+  top: 142px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+   
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+h6 {
+  position: absolute;
+  width: 292px;
+  height: 100px;
+  left: 937px;
+  top: 235px;
+  font-size: 16px;
+  text-decoration: none;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+}
+#port {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #e7e7e7;
+  border-radius: 60px;
+  background-color: #4caf4f00;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 925px;
+  top: 304px;
+  width: 129px;
+  height: 38px;
+}
+#ingles {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #e7e7e7;
+  border-radius: 60px;
+  background-color: #4caf4f00;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 925px;
+  top: 365px;
+  width: 129px;
+  height: 38px;
+}
+#esp {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgb(255, 255, 255);
+  border: 2px solid #e7e7e7;
+  border-radius: 60px;
+  background-color: #4caf4f00;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  left: 925px;
+  top: 425px;
+  width: 129px;
+  height: 38px;
+}
 
 
 
@@ -307,12 +418,13 @@ img {
         position: absolute;
         width: 292px;
         height: 100px;
-        left: 134px;
-        top: 124px;
+        left: 26px;
+        top: 132px;
         font-size: 35px;
         text-decoration: none;
         background: linear-gradient(99.28deg, #a09fff 0%, #f78ee0 50%);
           background-clip: border-box;
+        background-clip: border-box;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
@@ -321,31 +433,31 @@ img {
       }
       #t3 {
         position: absolute;
-        width: 222px;
+        width: 224px;
         height: 191px;
-        left: 175px;
-        top: 201px;
+        left: 191px;
+        top: 195px;
         font-size: 13px;
         text-decoration: none;
         color: #a7a7a7;
         font-family: Arial, Helvetica, sans-serif;
         line-height: 12px;
       }
-      img {
+      #eu {
         display: block;
-        width: 127px;
-        height: 165px;
+        width: 158px;
+        height: 173px;
         border-radius: 10px;
         position: absolute;
-        left: 27px;
-        top: 219px;
+        left: 24px;
+        top: 207px;
       }
       h3 {
         position: absolute;
         width: 366px;
         height: 122px;
         left: 28px;
-        top: 390px;
+        top: 485px;
         font-size: 20px;
         text-decoration: none;
         color: #a7a7a7;
@@ -357,7 +469,7 @@ img {
         width: 366px;
         height: 122px;
         left: 28px;
-        top: 423px;
+        top: 526px;
         font-size: 13px;
         text-decoration: none;
         color: white;
@@ -373,7 +485,7 @@ img {
         width: 366px;
         height: 122px;
         left: 28px;
-        top: 565px;
+        top: 651px;
         font-size: 20px;
         text-decoration: none;
         color: #a7a7a7;
@@ -382,10 +494,10 @@ img {
       }
       #t5 {
         position: absolute;
-        width: 280px;
-        height: 122px;
+        width: 314px;
+  
         left: 28px;
-        top: 605px;
+        top: 694px;
         font-size: 13px;
         text-decoration: none;
         color: white;
@@ -396,5 +508,114 @@ img {
         color: #a7a7a7;
         font-size: 13px;
       }
-     
+      h5 {
+        position: absolute;
+        width: 111px;
+        height: 100px;
+        left: 263px;
+        top: 373px;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+      }
+      #camera {
+        display: block;
+        width: 28px;
+        border-radius: 10px;
+        position: absolute;
+        left: 236px;
+        top: 430px;
+      }
+      #volei {
+        display: block;
+        width: 28px;
+        border-radius: 10px;
+        position: absolute;
+        left: 323px;
+        top: 430px;
+      }
+      #praia {
+        display: block;
+        width: 28px;
+        border-radius: 10px;
+        position: absolute;
+        left: 363px;
+        top: 430px;
+      }
+      #unha {
+        display: block;
+        width: 28px;
+        border-radius: 10px;
+        position: absolute;
+        left: 281px;
+        top: 430px;
+      }
+      h6 {
+        position: absolute;
+        width: 243px;
+        height: 100px;
+        left: 28px;
+        top: 363px;
+        font-size: 16px;
+        text-decoration: none;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        position: absolute;
+      }
+      #port {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid #e7e7e7;
+        border-radius: 60px;
+        background-color: #4caf4f00;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        left: 16px;
+        top: 426px;
+        width: 87px;
+        height: 28px;
+      }
+      #esp {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid #e7e7e7;
+        border-radius: 60px;
+        background-color: #4caf4f00;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        left: 110px;
+        top: 426px;
+        width: 87px;
+        height: 28px;
+      }
+      #ingles {
+        background-color: rgba(255, 255, 255, 0);
+        color: rgb(255, 255, 255);
+        border: 2px solid #e7e7e7;
+        border-radius: 60px;
+        background-color: #4caf4f00;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 13px;
+        margin: 4px 2px;
+        cursor: pointer;
+        position: absolute;
+        left: 16px;
+        top: 464px;
+        width: 64px;
+        height: 27px;
+      }
   }
