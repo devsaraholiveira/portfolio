@@ -1,0 +1,336 @@
+body{
+  background-color: black;
+}
+
+nav{
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 4px;
+}
+
+h1{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  margin-left: 40px;
+  margin-top: 15px;
+  font-size: 30px;
+  text-decoration: none;
+  background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#ul1 {
+  margin: 0;
+}
+
+#li1 {
+  float: right;
+  margin-top: 19px;
+}
+
+#li1 a {
+  display: block;
+  color: rgb(134, 134, 134);
+  margin-right: 20px;
+  padding: 9px 35px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#li1 a:hover { 
+  background-color: rgb(0, 0, 0);
+  color:#d87eff;
+}
+
+#ul2 {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  margin-left: 380px;
+}
+
+#li2 {
+  float: left;
+}
+
+#li2 a {
+  display: block;
+  color: rgb(134, 134, 134);
+  margin-right: 60px;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: 445px;
+  width: 90px;
+  height: 30px;
+}
+
+#commits {
+  width: 300px;
+  left: 80px;
+  position: absolute;
+  top: 351px;
+}
+
+#linguas {
+  width: 300px;
+  left: 80px;
+  position: absolute;
+  top: 195px;
+}
+
+#portfolio {
+  width: 400px;
+  left: 462px;
+  position: absolute;
+  top: 195px;
+}
+
+h3 {
+  position: absolute;
+  width: 238px;
+  height: 100px;
+  margin-left: 462px;
+  margin-top: 44px;
+  font-size: 25px;
+  text-decoration: none;
+  background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+  background-clip: border-box;
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h2 {
+  position: absolute;
+  width: 297px;
+  height: 100px;
+  margin-left: 72px;
+  margin-top: 43px;
+  font-size: 25px;
+  text-decoration: none;
+  background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+  background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#python {
+  width: 400px;
+  left: 462px;
+  position: absolute;
+  top: 350px;
+}
+
+#insta1{
+color: #000000;
+}
+
+#insta:hover {
+color: rgb(224, 122, 255) !important;
+}
+
+#insta:hover > * {
+color:rgb(224, 122, 255)!important;
+}
+#hub1{
+color: #000000;
+}
+
+#hub:hover {
+color: rgb(124, 255, 133) !important;
+}
+
+#hub:hover > * {
+color: rgb(124, 255, 133) !important;
+}
+#tube1{
+color: #000000;
+}
+
+#tube:hover {
+color: rgb(255, 126, 126) !important;
+}
+
+#tube:hover > * {
+color: rgb(255, 126, 126) !important;
+}
+#lab1{
+color: #000000;
+}
+
+#lab:hover {
+color: rgb(255, 205, 131)!important;
+}
+
+#lab:hover > * {
+color: rgb(255, 205, 131) !important;
+}
+
+
+@media (max-width: 751px) {
+  nav {
+  display: block;
+  width: 100%;
+  }
+
+  h1 {
+    width: 85px;
+    height: 35px;
+    margin-left: 165px;
+    font-size: 30px;
+    text-decoration: none;
+    background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+      background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #li1 a {
+    display: block;
+    color: rgb(134, 134, 134);
+    padding: 9px 35px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 50px;
+    margin-left: -75px; 
+  }
+
+  #li1 a:hover {
+    background-color: rgba(255, 255, 255, 0);
+    color: #d87eff;
+    height: 20px;
+  }
+
+  #li1 {
+    margin-right: 7px;
+  }
+
+  #li1 {
+    float: right;
+    width: 85px;
+    height: 35px;
+  }
+
+  #ul2 {
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+  }  
+    
+  #li2 {
+    float: center;
+  }
+  
+  #li2 a {
+    display: block;
+    color: rgb(255, 255, 255);
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 649px;
+    float: center;
+    margin-left: -16px;
+    margin-right: -9px;
+  }
+    
+  #ul2 {
+    background-color: rgb(0, 0, 0);
+    margin-left: 60px;
+  }  
+  
+  #li2 {
+    float: center;
+  }
+
+  #li2 a {
+    display: block;
+    color: rgb(255, 255, 255);
+    
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 649px;
+    float: center;
+    margin-left: -16px;
+    margin-right: -9px;
+  }
+
+  h2 {
+    position: absolute;
+    width: 297px;
+    height: 100px;
+    margin-left: 80px;
+    margin-top: 43px;
+    font-size: 25px;
+    text-decoration: none;
+    background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+    background-clip: border-box;
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #linguas {
+    width: 300px;
+    left: 65px;
+    position: absolute;
+    top: 195px;
+  }
+
+  #commits {
+    width: 300px;
+    left: 65px;
+    position: absolute;
+    top: 330px;
+  }
+
+  h3 {
+    position: absolute;
+    width: 238px;
+    height: 100px;
+    margin-left: 117px;
+    margin-top: 384px;
+    font-size: 25px;
+    text-decoration: none;
+    background: linear-gradient(99.28deg, #8785FF 0%, #FF56DA 117.28%);
+    background-clip: border-box;
+    background-clip: border-box;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
+  #portfolio {
+    width: 308px;
+    left: 60px;
+    position: absolute;
+    top: 544px;
+  }
+  #python {
+    width: 308px;
+    left: 60px;
+    position: absolute;
+    top: 656px;
+  }
+}
